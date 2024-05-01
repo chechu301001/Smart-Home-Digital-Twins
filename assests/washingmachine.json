@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:WashingMachine;1",
+  "@type": "Interface",
+  "displayName": "Washing Machine",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "status",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "onOff",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    }
+  ]
+}

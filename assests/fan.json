@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Fan;1",
+  "@type": "Interface",
+  "displayName": "Fan",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "speed",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "onOff",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    }
+  ]
+}

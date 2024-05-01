@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:LightBulb;1",
+  "@type": "Interface",
+  "displayName": "Light Bulb",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "brightness",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "color",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "onOff",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    }
+  ]
+}

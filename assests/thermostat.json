@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Thermostat;1",
+  "@type": "Interface",
+  "displayName": "Thermostat",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "mode",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "onOff",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    }
+  ]
+}

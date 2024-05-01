@@ -1,0 +1,73 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Room;1",
+  "@type": "Interface",
+  "displayName": "Room",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "occupancy",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "lighting",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsAC",
+      "target": "dtmi:example:AC;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsTV",
+      "target": "dtmi:example:TV;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsF",
+      "target": "dtmi:example:Fridge;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsWM",
+      "target": "dtmi:example:WashingMachine;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsFan",
+      "target": "dtmi:example:Fan;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsT",
+      "target": "dtmi:example:Thermostat;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsLB",
+      "target": "dtmi:example:LightBulb;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsG",
+      "target": "dtmi:example:Geyser;1"
+    }
+  ]
+}

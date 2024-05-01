@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:TV;1",
+  "@type": "Interface",
+  "displayName": "Television",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "volume",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "channel",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "onOff",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumed",
+      "schema": "double"
+    }
+  ]
+}
